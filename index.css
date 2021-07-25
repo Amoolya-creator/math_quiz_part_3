@@ -1,0 +1,59 @@
+#heading {
+    text-align: center;
+    color: red;
+    font-size: 70px;
+    border: 15px ridge hotpink;
+    border-radius: 15px;
+    text-shadow: 5px 5px 15px gold;
+    background: white;
+}
+
+#heading:hover{
+    color: darkred;
+    text-shadow: 5px 5px 15px tomato;
+}
+
+body {
+    background: url(bg.jpg);
+}
+
+label {
+    background: rgb(47, 226, 47);
+    color: rgb(230, 21, 184);
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 1px 1px rgb(36, 12, 27);
+}
+label:hover{
+    background-color: green;
+}
+
+.row {
+    background: rgb(243, 217, 239);
+}
+
+input {
+    background: rgb(238, 233, 203);
+}
+
+input:hover{
+    background-color: yellow;
+}
+
+#output{
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid darkviolet;
+    border-top: 10px solid #AA4465;
+    padding: 10px;
+    float: none;
+    text-align:left;
+}
+#number_block{
+    background: rgb(248, 216, 250);
+}
+#player_1_name,#player_2_name{
+    display: inline;
+    color: red;
+    font: 30px sans-serif;
+}
